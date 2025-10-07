@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f5f7fa;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#controls {
+  text-align: center;
+  margin: 20px 0;
+}
+
+button {
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+#status {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.status-ok {
+  color: green;
+}
+
+.status-fail {
+  color: red;
+}
+
+#timestamps {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #e8f0fe;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
